@@ -6,5 +6,8 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "serve": "vite preview"
+  },
+  "dependencies": {
+    "@workspace/util": "workspace:^0.0.0"
   }
 }

@@ -30,7 +30,10 @@ importers:
       '@workspace/util': link:../util
 
   packages/ui:
-    specifiers: {}
+    specifiers:
+      '@workspace/util': workspace:^0.0.0
+    dependencies:
+      '@workspace/util': link:../util
 
   packages/util:
     specifiers: {}
