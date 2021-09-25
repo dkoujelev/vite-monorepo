@@ -1,0 +1,13 @@
+{
+  "name": "@workspace/client",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "tsc && vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@workspace/ui": "workspace:^0.0.0",
+    "@workspace/util": "workspace:^0.0.0"
+  }
+}

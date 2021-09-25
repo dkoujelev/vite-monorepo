@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.app.json",
+
+  "exclude": ["node_modules"],
+
+  "compilerOptions": {
+    "baseUrl": "./packages",
+    "paths": {
+      "@workspace/*": ["*/src"]
+    }
+  }
+}
